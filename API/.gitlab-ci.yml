@@ -1,0 +1,27 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0  # Dùng .NET SDK 8.0 (Thay đổi nếu bạn dùng version khác)
+
+stages:
+  - build
+  - test
+
+variables:
+  DOTNET_CLI_TELEMETRY_OPTOUT: 1  # Tắt telemetry để tránh lỗi CI/CD
+  DOTNET_NOLOGO: 1  # Giảm log không cần thiết
+
+build:
+  stage: build
+  script:
+    - echo "Restoring dependencies..."
+    - dotnet restore  # Khôi phục package
+    - echo "Building project..."
+    - dotnet build --configuration Release --no-restore  # Build code
+  only:
+    - merge_requests  # Chạy khi có MR
+
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - dotnet test --configuration Release --no-restore --no-build --verbosity normal  # Chạy unit test
+  only:
+    - merge_requests
