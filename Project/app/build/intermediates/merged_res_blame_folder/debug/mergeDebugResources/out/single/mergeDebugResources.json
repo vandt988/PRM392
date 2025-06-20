@@ -1,122 +1,146 @@
 [
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_gradient_background.xml.flat",
-        "source": "com.example.fap.app-main-34:/drawable/gradient_background.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/layout_profile.xml.flat",
-        "source": "com.example.fap.app-main-34:/layout/profile.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_fpt_logo.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\fpt_logo.jpg"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_mau.jpg.flat",
-        "source": "com.example.fap.app-main-34:/drawable/mau.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_logo_profile.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\logo_profile.jpg"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\layout_application_student_chapter_card.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\layout\\application_student_chapter_card.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_chuong.png.flat",
-        "source": "com.example.fap.app-main-34:/drawable/chuong.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_fpt_logo_removebg.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\fpt_logo_removebg.png"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_fap.jpg.flat",
-        "source": "com.example.fap.app-main-34:/drawable/fap.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\layout_application_student_chapter.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\layout\\application_student_chapter.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.fap.app-main-34:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_ic_btn_back.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\ic_btn_back.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_ic_bottom_nav.xml.flat",
-        "source": "com.example.fap.app-main-34:/drawable/ic_bottom_nav.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_markreport_icon.png.flat",
-        "source": "com.example.fap.app-main-34:/drawable/markreport_icon.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_baseline_home_24.xml.flat",
-        "source": "com.example.fap.app-main-34:/drawable/baseline_home_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_fap.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\fap.jpg"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_user.png.flat",
-        "source": "com.example.fap.app-main-34:/drawable/user.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_mau.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\mau.jpg"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.fap.app-main-34:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_chat.png.flat",
-        "source": "com.example.fap.app-main-34:/drawable/chat.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_user.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\user.png"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/xml_backup_rules.xml.flat",
-        "source": "com.example.fap.app-main-34:/xml/backup_rules.xml"
+        "merged": "com.example.fap.app-debug-32:/layout_application_student.xml.flat",
+        "source": "com.example.fap.app-main-34:/layout/application_student.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_chat.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\chat.png"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.fap.app-main-34:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.fap.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\layout_application_student.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\layout\\application_student.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "com.example.fap.app-main-34:/layout/activity_main.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_fpt_logo_removebg.png.flat",
-        "source": "com.example.fap.app-main-34:/drawable/fpt_logo_removebg.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\menu\\bottom_nav.xml"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/drawable_fpt_logo.jpg.flat",
-        "source": "com.example.fap.app-main-34:/drawable/fpt_logo.jpg"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fap.app-debug-32:/menu_bottom_nav.xml.flat",
-        "source": "com.example.fap.app-main-34:/menu/bottom_nav.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_chuong.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\chuong.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\layout_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\layout\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_ic_bottom_nav.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\ic_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\drawable_markreport_icon.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\drawable\\markreport_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.11.1\\com.example.fap.app-main-34:\\xml\\data_extraction_rules.xml"
     }
 ]

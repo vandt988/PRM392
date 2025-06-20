@@ -1374,6 +1374,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1434,6 +1435,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3021,6 +3023,7 @@ drawable fpt_logo_removebg
 drawable gradient_background
 drawable ic_arrow_back_black_24
 drawable ic_bottom_nav
+drawable ic_btn_back
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3041,6 +3044,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable indeterminate_static
+drawable logo_profile
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3221,6 +3225,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_back
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3490,6 +3495,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rec_chapter
 id rectangles
 id report_drawn
 id reverseSawtooth
@@ -3581,6 +3587,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3610,6 +3617,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvReports
+id tv_date_create
+id tv_request_message
+id tv_response_message
+id tv_status
+id tv_type
 id unchecked
 id uniform
 id unlabeled
@@ -3619,6 +3631,7 @@ id vertical
 id vertical_only
 id viewHeader
 id view_offset_helper
+id view_status
 id view_transition
 id view_tree_disjoint_parent
 id view_tree_lifecycle_owner
@@ -3751,6 +3764,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout application_student
+layout application_student_chapter
+layout application_student_chapter_card
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
