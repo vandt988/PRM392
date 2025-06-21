@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <view class="androidx.constraintlayout.widget.ConstraintLayout"
+        android:id="@+id/viewHeader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background">
+    </view>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Send Application"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+
+        app:layout_constraintEnd_toEndOf="@id/viewHeader"
+        app:layout_constraintStart_toStartOf="@id/viewHeader"
+        app:layout_constraintTop_toTopOf="@id/viewHeader"
+        app:layout_constraintBottom_toBottomOf="@id/viewHeader"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_btn_back"
+
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toTopOf="@id/viewHeader"
+        app:layout_constraintStart_toStartOf="@id/viewHeader"
+        app:layout_constraintBottom_toBottomOf="@id/viewHeader"
+        />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:text="Application Type:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_margin="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/viewHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Spinner
+        android:id="@+id/sp_application_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toTopOf="@id/tv_1"
+        app:layout_constraintStart_toEndOf="@+id/tv_1"
+        />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:text="Student Roll No:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_margin="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_application_student_roll_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="HE172333"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toTopOf="@id/tv_2"
+        app:layout_constraintStart_toEndOf="@+id/tv_2"
+        />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:text="Student Name:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_margin="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_application_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Nguyễn Đức Hùng"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintTop_toTopOf="@id/tv_3"
+        app:layout_constraintStart_toEndOf="@+id/tv_3"
+        />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Reason:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_margin="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_3"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/edt_application_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_send_application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Send"
+
+        app:layout_constraintTop_toBottomOf="@id/edt_application_reason"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav"
+        app:itemIconTint="#FFFFFF"
+        android:background="@drawable/ic_bottom_nav"
+        app:itemIconSize="30dp"
+        app:labelVisibilityMode="unlabeled">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

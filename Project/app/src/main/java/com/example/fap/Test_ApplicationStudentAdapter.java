@@ -3,7 +3,6 @@ package com.example.fap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -11,11 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class Test_ApplicationAdapter extends RecyclerView.Adapter<Test_ApplicationAdapter.ApplicationHolder> {
+public class Test_ApplicationStudentAdapter extends RecyclerView.Adapter<Test_ApplicationStudentAdapter.ApplicationHolder> {
 
     List<Test_ApplicationObject> listApplication;
 
-    public Test_ApplicationAdapter(List<Test_ApplicationObject> list) {
+    public Test_ApplicationStudentAdapter(List<Test_ApplicationObject> list) {
         this.listApplication = list;
     }
 
