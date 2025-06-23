@@ -6,7 +6,7 @@ namespace FAP_API.Services
 	{
 		public List<Letter> GetLetterList();
 		List<Letter> GetLettersByUserId(string userId);
-
-
+		List<Letter> GetLettersByStatus(int status);
+		bool UpdateLetterStatus(string letterId, int newStatus);
 	}
 }

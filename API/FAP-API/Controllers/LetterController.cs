@@ -10,7 +10,7 @@ namespace FAP_API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class LetterController : ControllerBase
     {
 		private readonly ILetterService _letterService;
@@ -36,6 +36,23 @@ namespace FAP_API.Controllers
 
 			var letters = _letterService.GetLettersByUserId(userId);
 			return Ok(letters);
+		}
+
+		[HttpGet]
+		public ActionResult<IEnumerable<Letter>> GetLettersByStatus(int status)
+		{
+			var letters = _letterService.GetLettersByStatus(status);
+			return Ok(letters);
+		}
+
+		[HttpPut]
+		public IActionResult UpdateStatus([FromQuery] string letterId, [FromQuery] int newStatus)
+		{
+			var result = _letterService.UpdateLetterStatus(letterId, newStatus);
+			if (!result)
+				return NotFound("Letter not found");
+
+			return Ok("Status updated successfully");
 		}
 
 	}
