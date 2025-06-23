@@ -31,9 +31,23 @@
         public const int SEMESTER_SPRING = 23;
         public const int SEMESTER_SUMMER = 24;
         public const int SEMESTER_FALL = 25;
-    }
 
-    public static class ConstantsDescription
+		// Trạng thái nộp đơn (STATUS_LATTER)
+		public const int STATUS_LATTER_IN_PROCESS = 27;
+		public const int STATUS_LATTER_REJECTED = 28;
+		public const int STATUS_LATTER_APPROVED = 29;
+		public const int STATUS_LATTER_UNREAD = 30;
+
+
+		// Loại đơn (TYPE_LETTER)
+		public const int TYPE_LETTER_ATTENDANCE_EXEMPTION = 32;
+		public const int TYPE_LETTER_ACADEMIC_TRANSCRIPT = 33;
+		public const int TYPE_LETTER_RE_EVALUATION = 34;
+		public const int TYPE_LETTER_RETAKE = 35;
+		public const int TYPE_LETTER_OTHER = 36;
+	}
+
+	public static class ConstantsDescription
     {
         // Quyền tài khoản
         public const string ROLE_ADMIN = "ROLE_ADMIN";
@@ -64,9 +78,22 @@
         public const string SEMESTER_SPRING = "Spring"; 
         public const string SEMESTER_SUMMER = "Summer";
         public const string SEMESTER_FALL = "Fall";
-    }
 
-    public static class UserRoleEnum
+		// Trạng thái nộp đơn (STATUS_LATTER)
+		public const string STATUS_LATTER_IN_PROCESS = "Đang chờ xử lý";
+		public const string STATUS_LATTER_REJECTED = "Reject";
+		public const string STATUS_LATTER_APPROVED = "Approved";
+		public const string STATUS_LATTER_UNREAD = "Chưa đọc";
+
+		// Loại đơn (TYPE_LETTER)
+		public const string TYPE_LETTER_ATTENDANCE_EXEMPTION = "Đề nghị miễn điểm danh";
+		public const string TYPE_LETTER_ACADEMIC_TRANSCRIPT = "Cấp bảng điểm quá trình";
+		public const string TYPE_LETTER_RE_EVALUATION = "Đơn xin phúc khảo";
+		public const string TYPE_LETTER_RETAKE = "Thi cải thiện điểm";
+		public const string TYPE_LETTER_OTHER = "Những loại đơn khác";
+	}
+
+	public static class UserRoleEnum
     {
         public enum UserRoleE
         {

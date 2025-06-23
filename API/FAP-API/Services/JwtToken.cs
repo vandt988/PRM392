@@ -19,8 +19,9 @@ namespace FAP_API.Services
                 var cliam = new List<Claim>
                 {
                     new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                };
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+					new Claim("UserId", user.UserId)
+				};
                 Constants.UserRoleEnum.UserRoleE roleEnum = (Constants.UserRoleEnum.UserRoleE)user.Role;
                 cliam.Add(new Claim(ClaimTypes.Role, roleEnum.ToString()));
 
