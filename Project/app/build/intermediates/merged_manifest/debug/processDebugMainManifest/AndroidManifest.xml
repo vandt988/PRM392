@@ -36,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.fap.Activity_ApplicationStudentSend" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

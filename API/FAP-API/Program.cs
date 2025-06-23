@@ -58,6 +58,9 @@ builder.Services.AddSwaggerGen(option =>
     });
 });
 builder.Services.AddScoped<JwtToken>();
+
+builder.Services.AddScoped<ILetterService, LetterService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
